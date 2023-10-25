@@ -38,7 +38,7 @@ HRESULT Library_sys_dev_adc_native_System_Device_Adc_AdcController::NativeOpenCh
     int adcUnit;
     esp_err_t result;
     // default to MAX bit width for SoC
-    adc_bits_width_t width_bit = (adc_bits_width_t)SOC_ADC_MAX_BITWIDTH;
+    adc_bits_width_t width_bit = ADC_WIDTH_BIT_12;
     adc_atten_t atten = ADC_ATTEN_DB_11;
 
     // get a pointer to the managed object instance and check that it's not NULL

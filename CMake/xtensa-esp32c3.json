@@ -14,7 +14,7 @@
                     "type": "FILEPATH",
                     "value": "${sourceDir}/CMake/toolchain.riscv32-esp-elf.cmake"
                 },
-                "NF_INTEROP_ASSEMBLIES": null,
+                "NF_INTEROP_ASSEMBLIES": "cvpcs.Esp32.Native",
                 "NF_TARGET_HAS_NANOBOOTER": "OFF",
                 "RTOS": "ESP32",
                 "TARGET_SERIES": "ESP32_C3",

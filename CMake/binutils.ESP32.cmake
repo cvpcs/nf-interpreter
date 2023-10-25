@@ -568,6 +568,8 @@ macro(nf_add_idf_as_library)
         esptool_py
         spiffs
         fatfs
+        esp_adc_cal
+        efuse
     )
 
     # set list with the libraries for IDF components added
@@ -578,6 +580,8 @@ macro(nf_add_idf_as_library)
         idf::esptool_py
         idf::spiffs
         idf::fatfs
+        idf::esp_adc_cal
+        idf::efuse
   )
 
     if(HAL_USE_BLE_OPTION)
